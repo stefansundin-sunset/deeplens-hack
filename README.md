@@ -50,7 +50,7 @@ Using [AWS Serverless Application Model, or SAM](https://github.com/awslabs/serv
 To build the lambda source packages run the following command:
 
 ```
-make package profile=<your_aws_profile>
+make package bucket=<my_bucket> profile=<your_aws_profile>
 ```
 
 ### Deployment
